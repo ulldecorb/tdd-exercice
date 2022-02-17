@@ -4,7 +4,8 @@
   "description": "Fizzbuzz tdd exercice",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
