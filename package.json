@@ -1,0 +1,26 @@
+{
+  "name": "tdd-exercice",
+  "version": "1.0.0",
+  "description": "Fizzbuzz tdd exercice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulldecorb/tdd-exercice.git"
+  },
+  "keywords": [],
+  "author": "ausias Bertran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulldecorb/tdd-exercice/issues"
+  },
+  "homepage": "https://github.com/ulldecorb/tdd-exercice#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.5.5"
+  }
+}
