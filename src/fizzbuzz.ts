@@ -1,11 +1,14 @@
 export default function fizzbuzz(num: number): number | string {
-  if (num % 5 === 0 && num % 3 === 0) {
+  // eslint-disable-next-line max-len
+  const checkDivisible : Function = (divisible: number, number: number): boolean => number % divisible === 0;
+
+  if (checkDivisible(3, num) && checkDivisible(5, num)) {
     return 'fizzbuzz';
   }
-  if (num % 3 === 0) {
+  if (checkDivisible(3, num)) {
     return 'fizz';
   }
-  if (num % 5 === 0) {
+  if (checkDivisible(5, num)) {
     return 'buzz';
   }
   return num;
